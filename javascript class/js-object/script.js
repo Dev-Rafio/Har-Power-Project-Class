@@ -5,7 +5,12 @@ let car={
     model:5000,
     weight:"180kg",
 
-    start: function(){
+    names: function(){
         console.log("The Smart  car");
     }
 }
+console.log(car.color);
+car.names()
+
+
+
